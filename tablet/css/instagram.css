@@ -1,0 +1,109 @@
+.version.instagram /* version checker */
+{
+	color: #0000ED;
+	background-color: #70ACC5;
+}
+
+@-ms-viewport
+{
+	width: 768px;
+}
+
+@-webkit-viewport
+{
+	width: 768px;
+}
+
+@-o-viewport
+{
+	width: 768px;
+}
+
+@-moz-viewport
+{
+	width: 768px;
+}
+
+@viewport
+{
+	width: 768px;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 768px;
+	min-height: 0px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 1073px;
+}
+
+#u1429-6
+{
+	z-index: 50;
+	width: 98px;
+	min-height: 54px;
+	top: 17px;
+	left: 11px;
+}
+
+#u1430-4
+{
+	z-index: 56;
+	width: 98px;
+	min-height: 63px;
+	top: 71px;
+	left: 10px;
+}
+
+#u1428-14
+{
+	z-index: 36;
+	width: 98px;
+	min-height: 64px;
+	top: 142px;
+	left: 10px;
+}
+
+#u1427-34
+{
+	z-index: 2;
+	width: 98px;
+	min-height: 108px;
+	top: 206px;
+	left: 10px;
+}
+
+#u1488
+{
+	z-index: 60;
+	width: 637px;
+	min-height: 928px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: left;
+	position: fixed;
+	top: 17px;
+	left: 120px;
+}
+
+body
+{
+	position: relative;
+	min-width: 768px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

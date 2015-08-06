@@ -1,0 +1,185 @@
+.version.digital_detox_day /* version checker */
+{
+	color: #00000A;
+	background-color: #3D1C75;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1054px;
+	min-height: 376px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 62px 15px 62px 11px;
+}
+
+#u152-6
+{
+	z-index: 40;
+	width: 98px;
+	min-height: 54px;
+	top: 56px;
+	left: 12px;
+}
+
+#u1030
+{
+	z-index: 50;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	position: relative;
+}
+
+#pu153-4
+{
+	width: 0.01px;
+	padding-bottom: 305px;
+	margin-top: -615px;
+}
+
+#u153-4
+{
+	z-index: 46;
+	width: 98px;
+	min-height: 63px;
+	top: 110px;
+	left: 11px;
+}
+
+#u669-14
+{
+	z-index: 26;
+	width: 98px;
+	min-height: 64px;
+	top: 181px;
+	left: 11px;
+}
+
+#u116-24
+{
+	z-index: 2;
+	width: 98px;
+	min-height: 108px;
+	top: 245px;
+	left: 11px;
+}
+
+#u1195-10
+{
+	z-index: 64;
+	width: 455px;
+	min-height: 297px;
+	background-color: transparent;
+	text-align: left;
+	font-family: Courier New, Courier, monospace;
+	margin-left: 113px;
+	margin-top: 20px;
+	position: relative;
+}
+
+#u1072
+{
+	z-index: 60;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u1077
+{
+	z-index: 62;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 50px;
+	position: relative;
+}
+
+#u1066
+{
+	z-index: 58;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u1054
+{
+	z-index: 54;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u1214
+{
+	z-index: 78;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u1036
+{
+	z-index: 52;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 50px;
+	position: relative;
+}
+
+#u1060
+{
+	z-index: 56;
+	width: 941px;
+	background-color: transparent;
+	margin-left: 113px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u1196-4
+{
+	z-index: 74;
+	width: 35px;
+	min-height: 14px;
+	background-color: transparent;
+	text-align: right;
+	font-family: Courier New, Courier, monospace;
+	margin-left: 1019px;
+	margin-top: 99px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 1080px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
