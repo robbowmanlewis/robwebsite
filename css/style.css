@@ -478,6 +478,13 @@ nav:nth-child(8) {
 	width: 100%;
 }
 
+@media (max-width: 1140px) {
+	.sequence {
+		float: center;
+		width: 1200px;
+		overflow: hidden;
+	}
+}
 /*3D STRIPS ARRANGEMENT*/
 
 .interactive {
