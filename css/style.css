@@ -4,8 +4,8 @@
 
 body {
 	font-family: 'Inconsolata', monospace;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 20px;
 
 	/* Let's get rid of the white border */
 	margin: 0;
@@ -33,45 +33,14 @@ iframe {
 #menu {
 		
 }
-
-/*#menu01 {
-	width: 50%;
-	height: 100%;
-	background-color: red;
-	overflow: hidden
-}
-#menu02 {
-	width: 50%;
-	height: 100%;
-	float: right;
-	background-color: blue;
-	top: -1000;
-}
-*/
 #menu01{
 	opacity: 0;
-	padding-top: 75px;
-	padding-left: 50px;
 	position: absolute;
-	width: 50%;
+	width: 25%;
 	height: 100%;
-	float: left;
 	line-height: 80;
 }
 #menu01:hover {
-	opacity: 1;
-}
-#menu02 {
-	opacity: 0;
-	padding-top: 65px;
-	padding-left: 50px;
-	position: absolute;
-	width: 50%;
-	height: 100%;
-	float: right;
-	right: 0;
-}
-#menu02:hover {
 	opacity: 1;
 }
 #menu01 p {
@@ -81,6 +50,19 @@ iframe {
 	color: red;
 	margin-bottom: 150px;
 }
+#menu02 {
+	opacity: 0;
+	position: absolute;
+	left: 25%;
+	right: 50%;
+	width: 25%;
+	height: 100%;
+	right: 0;
+}
+#menu02:hover {
+	opacity: 1;
+}
+
 #menu02 p {
 	font-family: 'PIXELADE';
 	font-size: 70px;
@@ -91,6 +73,28 @@ iframe {
 	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-stroke-color: black;
 }
+#menu03 {
+	opacity: 0;
+	position: absolute;
+	width: 25%;
+	left: 50%;
+	right: 25%;
+	height: 100%;
+	float: right;
+	right: 0;
+}
+#menu03:hover {
+	opacity: 1;
+}
+
+#menu03 p {
+	font-family: 'helvetica';
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	color: black;
+}
+
 @media (max-width: 1140px) {
 #menu01 {
 	top: 50;
@@ -224,7 +228,7 @@ nav:nth-child(8) {
 #landing {
 	position: fixed;
 	left: 45;
-	top: 25;
+	top: 100;
 	z-index: 100;
 	text-decoration: none;
 	color: black;
@@ -255,8 +259,6 @@ nav:nth-child(8) {
 
 /*HIDDEN CONTENT*/
 
-
-
 .hidden:hover ~ .reveal {
 	opacity: 1;
 	display: inline-block;
@@ -268,17 +270,180 @@ nav:nth-child(8) {
 	display: none;
 	opacity: 0;
 	position: fixed;
-	font-size: 60px;
+	font-size: 50px;
 /*	font-weight: bold;*/
-	line-height: 80px;
+	line-height: 65px;
 	z-index: 20;
 	color: red;
 	left: 50;
 	right: 50;
-	top: 50;
+	top: 70;
 	bottom: 50;
 }
-
+.nohover {
+	opacity: 1;
+	display: inline-block;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden01:hover ~ .nohover {
+	opacity: 0;
+	display: inline-block;
+}
+.hidden02:hover ~ .nohover {
+	opacity: 0;
+	display: inline-block;
+}
+.hidden03:hover ~ .nohover {
+	opacity: 0;
+	display: inline-block;
+}
+.hidden04:hover ~ .nohover {
+	opacity: 0;
+	display: inline-block;
+}
+.hidden05:hover ~ .nohover {
+	opacity: 0;
+	display: inline-block;
+}
+.hidden06:hover ~ .nohover {
+	opacity: 0;
+	display: inline-block;
+}
+.hidden00:hover ~ .reveal00 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal00 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden01:hover ~ .reveal01 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal01 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden02:hover ~ .reveal02 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal02 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden03:hover ~ .reveal03 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal03 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden04:hover ~ .reveal04 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal04 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden05:hover ~ .reveal05 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal05 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
+.hidden06:hover ~ .reveal06 {
+	opacity: 1;
+	display: inline-block;
+}
+.reveal06 {
+	display: none;
+	opacity: 0;
+	position: fixed;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	z-index: 20;
+	color: red;
+	left: 50;
+	right: 50;
+	top: 70;
+	bottom: 50;
+}
 /*HIDDEN CONTENT 02*/
 
 .hidden_02 a {	

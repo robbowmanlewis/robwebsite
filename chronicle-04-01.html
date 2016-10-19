@@ -1,0 +1,262 @@
+
+
+<html>
+<head>
+    <title>robbowmanlewis</title>
+    <!-- My Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style04.css">
+    <!-- My Custom Fonts -->
+    <script type="text/javascript" src="java/jquery-1.7.2.js"></script>
+     <script type="text/javascript">
+         $(document).ready(function() {
+        animateDiv($('.a'));
+        animateDiv($('.b'));
+        animateDiv($('.c'));
+        animateDiv($('.d'));
+        animateDiv($('.e'));
+        animateDiv($('.f'));
+        animateDiv($('.g'));
+        animateDiv($('.h'));
+        animateDiv($('.i'));
+        animateDiv($('.j'));
+        animateDiv($('.k'));
+        animateDiv($('.l'));
+        animateDiv($('.m'));
+        animateDiv($('.n'));
+        animateDiv($('.o'));
+        animateDiv($('.p'));
+        animateDiv($('.q'));
+        animateDiv($('.r'));
+        animateDiv($('.s'));
+        animateDiv($('.t'));
+        animateDiv($('.u'));
+        animateDiv($('.v'));
+        animateDiv($('.w'));
+        animateDiv($('.x'));
+        animateDiv($('.y'));
+        animateDiv($('.z'));
+        animateDiv($('.aa'));
+        animateDiv($('.ab'));
+
+});
+
+function makeNewPosition($container) {
+
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $container.height();
+    var w = $container.width();
+
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+
+    return [nh, nw];
+
+}
+
+function animateDiv($target) {
+    var newq = makeNewPosition($target.parent());
+    var oldq = $target.offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+
+    $target.animate({
+        top: newq[0],
+        left: newq[1]
+    }, speed, function() {
+        animateDiv($target);
+    });
+
+};
+
+function calcSpeed(prev, next) {
+
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+
+    var greatest = x > y ? x : y;
+
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest / speedModifier);
+
+    return speed;
+
+
+
+}
+     </script>
+    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+</head>
+<body>
+
+
+
+    <!-- navigation -->
+
+    <nav class="hidden00">
+        <a href="chronicle-04.html">00<br>--<br>--<br></a>
+    </nav>
+    <nav class="hidden01 hidden">
+        <a href="chronicle-04-01.html">01<br>--<br>--<br></a>
+    </nav>
+    <nav class="hidden02">
+        <a href="chronicle-04-02.html">02<br>--<br>--<br></a>
+    </nav>
+    <nav class="hidden03">
+        <a href="chronicle-04-03.html">03<br>--<br>--<br></a>
+    </nav>
+    <nav class="hidden04">
+        <a href="chronicle-04-04.html">04<br>--<br>--<br></a>
+    </nav>
+
+
+    <div class="nav01">
+        <a href="index.html">Shelf</a>
+        <a href="chronicle-01.html">Chronicle 01</a>
+        <a href="chronicle-02.html">Chronicle 02</a>
+        <a href="chronicle-03.html">Chronicle 03</a>
+        <a href="chronicle-04.html">Chronicle 04</a>
+    </div>
+
+    <a href="index.html" id="nav01robbowmanlewis">Rob Bowman Lewis</a>
+
+
+    <p class="reveal00">
+          Chronicle 04 Preface
+    </p>
+    <p class="reveal01">
+          Triplicata typeform <br>
+          Triplicata is constructed through grid design, derived from modernist methods of design construction. Application of the typeface, however, functions with generative design processes. The function of the three-dimensional environment is a key feature of this typeface. Each letter can be viewed from two of the four horizontal faces, in reference to the capabilities of the three-dimensional medium, without compromising of character legibility.
+    </p>
+    <p class="reveal02">
+          Processing
+    </p>
+    <p class="reveal03">
+          Biomimicry
+    </p>
+    <p class="reveal04">
+          Paramaterial
+    </p>
+    <div id="container">
+        <div class='a'>
+            <p>01<br>03<br>01</p>
+            <img src="images/triplicata/Triplicata_a.gif">
+        </div>
+        <div class='b'>
+             <p>01<br>03<br>02</p>
+            <img src="images/triplicata/Triplicata_b.gif">
+        </div>
+        <div class='c'>
+            <p>01<br>03<br>03</p>
+            <img src="images/triplicata/Triplicata_c.gif">
+        </div>
+        <div class='d'>
+            <p>01<br>03<br>04</p>
+            <img src="images/triplicata/Triplicata_d.gif">
+        </div>
+        <div class='e'>
+            <p>01<br>03<br>05</p>
+            <img src="images/triplicata/Triplicata_e.gif">
+        </div>
+        <div class='f'>
+            <p>01<br>03<br>06</p>
+            <img src="images/triplicata/Triplicata_f.gif">
+        </div>
+        <div class='g'>
+            <p>01<br>03<br>07</p>
+            <img src="images/triplicata/Triplicata_g.gif">
+        </div>
+        <div class='h'>
+            <p>01<br>03<br>08</p>
+            <img src="images/triplicata/Triplicata_h.gif">
+        </div>
+        <div class='i'>
+            <p>01<br>03<br>09</p>
+            <img src="images/triplicata/Triplicata_i.gif">
+        </div>
+        <div class='j'>
+            <p>01<br>03<br>10</p>
+            <img src="images/triplicata/Triplicata_j.gif">
+        </div>
+        <div class='k'>
+            <p>01<br>03<br>11</p>
+            <img src="images/triplicata/Triplicata_k.gif">
+        </div>
+        <div class='l'>
+            <p>01<br>03<br>12</p>
+            <img src="images/triplicata/Triplicata_l.gif">
+        </div>
+        <div class='m'>
+            <p>01<br>03<br>13</p>
+            <img src="images/triplicata/Triplicata_m.gif">
+        </div>
+        <div class='n'>
+            <p>01<br>03<br>14</p>
+            <img src="images/triplicata/Triplicata_n.gif">
+        </div>
+        <div class='o'>
+            <p>01<br>03<br>15</p>
+            <img src="images/triplicata/Triplicata_o.gif">
+        </div>
+        <div class='p'>
+            <p>01<br>03<br>16</p>
+            <img src="images/triplicata/Triplicata_p.gif">
+        </div>
+        <div class='q'>
+            <p>01<br>03<br>17</p>
+            <img src="images/triplicata/Triplicata_q.gif">
+        </div>
+        <div class='r'>
+            <p>01<br>03<br>18</p>
+            <img src="images/triplicata/Triplicata_r.gif">
+        </div>
+        <div class='s'>
+            <p>01<br>03<br>19</p>
+            <img src="images/triplicata/Triplicata_s.gif">
+        </div>
+        <div class='t'>
+            <p>01<br>03<br>20</p>
+            <img src="images/triplicata/Triplicata_t.gif">
+        </div>
+        <div class='u'>
+            <p>01<br>03<br>21</p>
+            <img src="images/triplicata/Triplicata_u.gif">
+        </div>
+        <div class='v'>
+            <p>01<br>03<br>22</p>
+            <img src="images/triplicata/Triplicata_v.gif">
+        </div>
+        <div class='w'>
+            <p>01<br>03<br>23</p>
+            <img src="images/triplicata/Triplicata_w.gif">
+        </div>
+        <div class='x'>
+            <p>01<br>03<br>24</p>
+            <img src="images/triplicata/Triplicata_x.gif">
+        </div>
+        <div class='y'>
+            <p>01<br>03<br>25</p>
+            <img src="images/triplicata/Triplicata_y.gif">
+        </div>
+        <div class='z'>
+            <p>01<br>03<br>26</p>
+            <img src="images/triplicata/Triplicata_z.gif">
+        </div>
+        <div class='aa'>
+            <p>01<br>04<br>01</p>
+            <img src="images/triplicata/Triplicata_aa.gif">
+        </div>
+        <div class='ab'>
+            <p>01<br>04<br>03</p>
+            <img src="images/triplicata/Triplicata_ab.gif">
+        </div>
+
+    </div>
+<!--     <p id="landing"> *****This paragraph is the same intro as in the book *****</p> -->
+    
+
+
+
+</body>
+
+</body>
+</html>
