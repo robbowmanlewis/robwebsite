@@ -1,0 +1,66 @@
+
+
+body {
+	font-family: 'eversonmono';
+	font-size: 15;
+	margin: 0;
+	background-color: grey;
+	color: grey;
+}
+@font-face {
+	font-family: 'eversonmono';
+    src: url(typeface/EversonMono.ttf);
+}
+h1 {
+	font-family: 'eversonmono';
+	font-weight: normal;
+	font-size: 15;
+	color: grey;
+}
+.menu {
+	position: fixed;
+	z-index: 15;
+	color: white;
+
+}
+
+.title {
+	position: fixed;
+	left: 10;
+	top: 10;
+	text-decoration: none;
+	color: white;
+}
+.email {
+	position: fixed;
+	left: 10;
+	bottom: 10;
+	text-decoration: none;
+	color: white;
+}
+.instagram {
+	position: fixed;
+	left:50%;
+	right: 50%;
+	bottom: 10;
+	text-decoration: none;
+	color: white;
+}
+.behance {
+	position: fixed;
+	right: 10;
+	bottom: 10;
+	text-decoration: none;
+	color: white;
+}
+video {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: black
+}
+source {
+	position: fixed;
+	width: inherit;
+	height: inherit;
+}
