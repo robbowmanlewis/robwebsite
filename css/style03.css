@@ -3,7 +3,7 @@
 }
 
 body {
-	font-family: 'Univers', helvetica;
+	font-family: 'helvetica';
 	font-size: 16px;
 	line-height: 20px;
 
@@ -16,15 +16,20 @@ iframe {
 	width: 500px;
 	height: 300px;*/
 }
+
 @font-face {
-  font-family: 'Univers';
-  src:  '...typeface/Univers.ttf';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 18px;
+    font-family: 'Univers';
+    src: url('...fonts/univers-webfont.eot');
+    src: url('...fonts/univers-webfont.woff') format('woff');
+    src: url('...fonts/univers-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      font-size: 18px;
+}
+
 }
 .body_02 {
-	font-family: 'Univers';
+	font-family: 'Univer';
 	 font-size: 18px;
 /*	  background-color: #edee90;*/
 	 /* background-color: #e0e0e0;*/
@@ -33,7 +38,76 @@ iframe {
 #menu {
 		
 }
+.index {
+	width: 100%;
+	height: auto;
+	background-color: blue;
+}
+.index03 {
+	opacity: 0;
+width: 50%;
+display: inline;
+float: left;
 
+}
+.index03 a {
+		font-family:  'helvetica', sans-serif;
+	font-size: 50px;
+/*	font-weight: bold;*/
+	line-height: 65px;
+	/*color: #c7c7c7;*/
+	color: black;
+	text-decoration: none;
+}
+.index03 a p {
+	margin: 50;
+	margin-top: 120;
+}
+.index03:hover {
+	opacity: 1;
+}
+
+.index04 {
+	background-color: #fff76b;
+	width: 50%;
+	height: inherit;
+	opacity: 0;
+	overflow: hidden;
+	display: inline;
+	text-decoration: none;
+	float: right;
+	display: inline;
+
+}
+.index04 a {
+	text-decoration: none;
+		font-size: 50px;
+	font-weight: bold;
+	line-height: 65px;
+	font-family: 'Helvetica';
+	color: black;
+   -webkit-text-fill-color: #fff76b; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+	z-index: 20;
+}
+.index04 a p {
+	margin: 50;
+	margin-top: 120;
+}
+.index04:hover {
+	opacity: 1;
+}
+.indexnav {
+	position: fixed;
+	right: 60;
+	width: 300px;
+	top: 40;
+	z-index: 100;
+	text-decoration: none;
+	color: black;
+	font-family: 'helvetica';
+}
 /*#menu01 {
 	width: 50%;
 	height: 100%;
@@ -188,7 +262,7 @@ nav:nth-child(8) {
 	z-index: 100;
 	text-decoration: none;
 	color: black;
-	font-family: 'univers', 'helvetica';
+	font-family: 'helvetica';
 
 }
 .nav01 a {
@@ -506,5 +580,8 @@ nav:nth-child(8) {
 .images div img {
 	margin-top: 100px;
 	margin-right: 400px;
-	width: 500px;
+	max-width: 500px;
+-webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+-webkit-filter: brightness(90%);
+	
 }
