@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'helvetica', sans-serif;
+	/*color: #f2f2f2;
+	 Let's get rid of the white border 
+
+	background-color: #1e1e1e;*/
+		margin: 0;
+}
+p {
+	font-size: 200;
+	line-height: 0.9em;
+	letter-spacing: 0.4;
+}
+a {
+	text-decoration: underline;
+	color: black;
+}
+img {
+	position: fixed;
+	width: 200px;
+	left:50%;
+	top: 50%;
+	margin:-100 0 0 -100;
+	z-index: 1;
+	opacity: 0;
+}
+img:hover {
+	opacity: 1;
+}
